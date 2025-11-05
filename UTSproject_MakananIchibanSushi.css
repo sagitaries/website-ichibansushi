@@ -1,0 +1,116 @@
+/* <!---CSS BOX MODEL--->*/
+div {
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+    box-sizing: border-box;
+}
+.produk {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+.produk img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#S1 {
+    width: 400px;
+    height: 500px;
+    padding: 70px;
+    border: 560ppx solid black;
+    margin: 20px;
+}
+#p1 {
+    width: 500px;
+    border: 5px solid rgb(83, 51, 51);
+    padding: 50px;
+    margin: 50px;
+    outline-style: dashed;
+    outline-color: cornflowerblue;
+    outline-width: 5px;
+    outline-offset: 5px;
+}
+table, th, td {
+    border: 2px solid blue;
+    border-collapse: separate;
+    border-spacing: 60px;
+    padding: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+h1 {
+    font-style: normal;
+    font-family: "sofia", cursive;
+}
+.kucing {
+    font-weight: normal;
+    font-family: "sofia", cursive;
+}
+/* CSS LINKS - Styling Links */
+a {
+    color: cornflowerblue;
+    text-decoration: underline wavy wheat;
+    background-color: cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+ul.sushilove {
+    list-style-type: square;
+    list-style-position: inside;
+    background: burlywood;
+    padding: 10px;
+    width: 60%;
+}
+ul li  {
+    background: bisque;
+    color: cadetblue;
+    margin: 5px;
+}
+/*tag selector */
+h1{
+    color: bisque;
+}
+p {
+    color: black;
+}
+/* Class Selector */
+.jaringanrestoransushiterbesardiIndonesiadenganlebihdari100gerai
+/* ID selector */
+#alfiap {
+    color: crimson;
+}
+h1,p{
+    color: rgb(226, 43, 162);
+    text-align: center;
+    background-color: antiquewhite;
+    border-style: groove;
+}
+h2{
+    color: black/*mengatur teks*/
+}
+h3 {
+    height: 30px;
+    width: 100px;
+    
+} 
+body {
+    background-color: antiquewhite;
+    background-image:url('undefined.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
